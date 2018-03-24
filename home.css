@@ -1,0 +1,123 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header#store-header {
+    flex-flow: column nowrap;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0, 0.6), rgba(0, 0, 0, 1)), url('http://www.riffyou.com/wp-content/uploads/2015/11/metallica-fan-shot.png');
+    background-position: center;
+    background-size: cover;
+}
+
+header#store-header .top {
+    justify-content: space-between;
+}
+header#store-header .top {
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header#store-header .bottom {
+    height: 100%;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+section#home-content #hot-album .album-info {
+    margin-left: 20px;
+    flex-flow: column wrap;
+    color: #fff;
+}
+
+section#home-content #hot-album .album-info .btn {
+    margin: 10px 0;
+}
+
+section#home-content #hot-album .album-info .price {
+    padding: 8px;
+    text-align: center;
+    font-size: 2em;
+}
+
+header#store-header .bottom img {
+    padding: 0 30px;
+    width: 60%;
+}
+
+header#store-header .bottom #who-we-are {
+    width: 30%;
+    color: #fff;
+}
+
+header#store-header .bottom #who-we-are p {
+    color: #fff;
+}
+
+header#store-header .bottom #hot-album {
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+header#store-header .store-logo {
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+header#store-header .store-logo img {
+    height: 60px;
+}
+header#store-header .store-logo img, header#store-header nav.navigation {
+    padding: 20px;
+}
+
+header#store-header nav.navigation {
+    line-height: 3em;
+}
+
+header#store-header nav.navigation a {
+    padding: 40px 10px;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn {
+    padding: 10px 5px;
+    font-size: 1.5em;
+    border: 2px solid #fff;
+    background: unset;
+    color: #fff !important;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #000 !important;
+}
+
+.btn.green {
+    color: #fff;
+}
+
+.btn.orange {
+    color: #fff;
+}
+
+.bdg.red {
+    font-size: 0.5em !important;
+    padding: 5px 10px;
+    background: #FF5722;
+}
+
+.flex {
+    display: flex;
+}
